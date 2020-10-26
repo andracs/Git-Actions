@@ -9,7 +9,7 @@ describe("Test-suite", function() {
 
     describe("Dummy test FAIL", function() {
         it("Eksempel på FAIL", function() {
-            expect(1-1).to.equal(2);
+            expect(1-1).to.equal(0);
         });
       });
   });
